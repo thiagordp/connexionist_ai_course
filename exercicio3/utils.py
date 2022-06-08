@@ -36,6 +36,9 @@ def displayData(X, example_width=None, figsize=(10, 10)):
                   cmap='Greys', extent=[0, 1, 0, 1])
         ax.axis('off')
 
+    pyplot.tight_layout()
+    pyplot.savefig("Digits.png")
+
 
 def sigmoid(z):
     """
