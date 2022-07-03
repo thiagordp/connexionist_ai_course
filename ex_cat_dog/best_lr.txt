@@ -1,0 +1,1 @@
+Best params: {'C': 1e-10, 'l1_ratio': 0, 'max_iter': 32, 'penalty': 'l2', 'solver': 'lbfgs'}

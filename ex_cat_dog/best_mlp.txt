@@ -1,0 +1,1 @@
+Best params: {'epochs': 32, 'hidden_layer_size': 512}
