@@ -14,7 +14,8 @@ import matplotlib.pyplot as plt
 
 class CNN_Classifier():
 
-    def __init__(self, X_train, y_train, X_test, y_test, embeddings_model):
+    def __init__(self, X_train, y_train, X_test, y_tes
+        t, embeddings_model):
         self.X_train = X_train
         self.y_train = y_train
         self.X_test = X_test
