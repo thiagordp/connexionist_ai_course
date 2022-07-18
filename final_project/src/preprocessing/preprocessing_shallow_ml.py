@@ -101,5 +101,5 @@ class PreProcessingShallowML:
         print("  -> Joining tokens into string")
         self.df_corpora["processed_content"] = self.df_corpora["processed_content"].apply(lambda doc: " ".join(doc))
 
-        print("  -> A sample of the preprocessed data:")
-        print(self.df_corpora["processed_content"].sample().values)
+        #print("  -> A sample of the preprocessed data:")
+        #print(self.df_corpora["processed_content"].sample().values)
